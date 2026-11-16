@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Copper Launcher
+GenericName=Startup Launcher
+Comment=Check ports and launch LM Studio, Ollama, Lemonade, YouTube Music, Brave, and Cursor
+# Replace both paths with the absolute location of this repo on your machine.
+Exec=/absolute/path/to/.venv/bin/python /absolute/path/to/copper_launcher.py
+Icon=/absolute/path/to/copper-launcher.png
+Terminal=false
+Categories=Utility;System;
+Keywords=launcher;ollama;lmstudio;startup;
+StartupNotify=true
+StartupWMClass=copper-launcher

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Copper Launcher
+Comment=Run the Copper launch sequence after login
+# Replace both paths with the absolute location of this repo on your machine.
+Exec=/absolute/path/to/.venv/bin/python /absolute/path/to/copper_launcher.py --auto-start
+Icon=/absolute/path/to/copper-launcher.png
+Terminal=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=8
