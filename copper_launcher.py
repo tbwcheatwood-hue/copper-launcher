@@ -1811,7 +1811,7 @@ class SequenceDialog(QDialog):
         self.name_edit = QLineEdit()
         self.name_edit.setPlaceholderText("Notes")
         self.command_edit = QLineEdit()
-        self.command_edit.setPlaceholderText("gedit /home/livingroom/notes.txt")
+        self.command_edit.setPlaceholderText("gedit notes.txt")
         self.process_edit = QLineEdit()
         self.process_edit.setPlaceholderText("process name, optional")
         self.port_edit = QLineEdit()
